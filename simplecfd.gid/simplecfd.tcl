@@ -63,6 +63,7 @@ proc AfterWriteCalcFileGIDProject { filename errorflag } {
         WarnWin [= "Error when preparing data for analysis (%s)" $::errorInfo]
         set ret -cancel-
     }
+
     return $ret
 }
 
@@ -110,6 +111,11 @@ proc InitGIDProject { dir } {
     source [file join $dir "write.tcl"]
     source [file join $dir "write_parameters.tcl"]
     source [file join $dir "write_materials.tcl"]
+    
+    # set environment variables for python
+    set python_path [GiD_Python_GetPythonExe]
+    set ::env(python_path) $python_path
+    set ::env(python_home) [file dirname $python_path]
 
     gid_groups_conds::open_conditions menu
     SimpleCFD::Init
