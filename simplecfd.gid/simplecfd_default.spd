@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<simplecfd version='1.0'>
+    <style show_menubutton_about='0' show_menubutton_search='1'/>
+    <!--Units-->
+    <units>
+    </units>
+    <container n="units" pn="Units" icon="darkorange-length-18">
+        <value n='units_mesh' pn='Geometry units' unit_mesh_definition="1" state="disabled"/>
+        <value n='units_system' pn='Units system' units_system_definition="1" state="disabled">
+            <dependencies node="//*[@unit_definition or @unit_mesh_definition='1']" att1='change_units_system' v1='{@v}'/>
+        </value>
+    </container>
+    <container n="simplecfd2d" pn="Simple CFD 2D" tree_state="open">
+
+        <!-- Insert here your data tree structure -->
+
+    </container>
+
+
+</simplecfd>
