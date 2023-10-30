@@ -98,6 +98,7 @@ proc SimpleCFD::GetElementTypeUsedByGroup {group} {
     return [lindex [GiD_Mesh get element [objarray get [GiD_EntitiesGroups get $group elements] 0] ] 1]
 }
 
+# Get the list of groups used by a condition
 proc SimpleCFD::GetUsedGroups { {condition_name ""} } {
     set used_groups [list ]
     set xpath "//group"
