@@ -1,7 +1,8 @@
 # Template for CMT GiD homework
 
 Use this template as starting point for your GiD Problemtype. 
-You will find:
 
-- default.spd: Where the data tree is defined
-- 
+Please check the following files:
+
+- simplecfd_default.spd: Where the data tree is defined.
+- simplecfd.xml: Where the problemtype is defined.
