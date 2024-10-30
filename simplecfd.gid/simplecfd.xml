@@ -1,7 +1,7 @@
 <Infoproblemtype version="1.0">
     <Program>
         <Name>Simple CFD</Name>
-        <Version>1.0</Version>
+        <Version>1.1</Version>
         <CustomLibAutomatic>1</CustomLibAutomatic>
         <CustomLibNativeGroups>1</CustomLibNativeGroups>
         <MinimumGiDVersion>16</MinimumGiDVersion>
