@@ -6,7 +6,11 @@
         <CustomLibNativeGroups>1</CustomLibNativeGroups>
         <MinimumGiDVersion>16</MinimumGiDVersion>
         <ImageFileBrowser>images/ico.png</ImageFileBrowser>
+
+
         <Maintainer>YOUR EMAIL ADDRESS</Maintainer>
+
+
         <Homepage>https://www.gidsimulation.com</Homepage>
         <ShortDescription>Interface GiD-Kratos Fluid Dynamics Application</ShortDescription>
         <Description>Interface GiD-Kratos Fluid Dynamics Application</Description>
